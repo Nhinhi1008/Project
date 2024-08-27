@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <link rel="stylesheet" href="shoppingcart.css">
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body>
+    <section class="header-nav">
+        <h5>MIỄN PHÍ VẬN CHUYỂN TOÀN QUỐC CHO ĐƠN HÀNG TỪ 500.000VND</h5>
+    </section>
+        
+    <section class="header">
+        <nav class="navbar">
+            <ul class="header-menu">
+                <li><a href="">BỘ SƯU TẬP</a></li>
+                <li><a href="">SẢN PHẨM MỚI</a></li>
+                <li><a href="">BEST SELLER</a></li>
+            </ul>
+            <div class="logo">DEARJULY</div>
+            <ul class="header-icons">
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                </li>
+                <li>
+                    <h6>Tài khoản</h6>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                    </svg>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="cart-content">
+        <div class="cart-header">
+            <h1 class="cart-title">CART</h1>
+            <span class="cart-items">1 items</span>
+            <hr>
+        </div>
+
+        <div class="cart-item flex row col-12">
+            <img src="https://mdj-01.nyc3.digitaloceanspaces.com/wp-content/uploads/2024/04/24150237/1-01-1-scaled.webp" alt="Product Image" class="cart-image col-4">
+            <div class="cart-item-info col-5">
+                <h3 class="cart-item-title">FONTAINE SHORT IN PINK</h3>
+                <p class="cart-item-size">SIZE: S</p>
+                <p class="cart-item-price">1.500.000 VND</p>
+                <div class="cart-item-quantity col-3">
+                    <label for="quantity">Số lượng</label>
+                    <select id="quantity" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <p class="cart-item-subtotal">Tạm tính: 1.500.000 VND</p>
+            </div>
+            <button class="cart-remove-button col-2">×</button>
+        </div>
+    </section>
+
+    <div class="cart-update">
+        <a href="#" class="cart-update-link">Cập nhật giỏ hàng</a>
+    </div>
+    
+    <div class="cart-total">
+        <h3 class="total-label">    
+            Tổng:
+         <span class="total-price"><strong>1.500.000 VND</strong></span>
+        </h3>
+    </div>
+    
+    <button class="checkout-btn">Tiến hành thanh toán</button>
+
+
+</body>
+</html>
